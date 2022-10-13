@@ -1,14 +1,16 @@
 import React from "react";
-import Badges from "../Badges";
 import Hero from "../Hero";
 import NavbarHome from "../NavbarHome";
+import Profile from "../Profile";
+import Activities from "../Activities";
 
 export default function HomePage() {
   return (
     <>
       <NavbarHome />
       <Hero />
-      <Badges />
+      <Profile />
+      <Activities />
     </>
   );
 }
