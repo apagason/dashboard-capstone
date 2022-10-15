@@ -7,10 +7,10 @@ export default function NavbarHome() {
       <Container>
         <a
           href="index.html"
-          class="navbar-brand d-flex align-items-center justify-content-between"
+          className="navbar-brand d-flex align-items-center justify-content-between"
         >
           <img src="images/site-icon-dark.png" alt="Site Icon" />
-          <span id="brand-name" class="mx-3">
+          <span id="brand-name" className="mx-3">
             ULTRA Foundation
           </span>
         </a>
@@ -20,19 +20,19 @@ export default function NavbarHome() {
         </Navbar.Toggle>
 
         <Navbar.Collapse>
-          <ul class="navbar-nav ms-auto text-center">
-            <li class="nav-item px-2 py-2">
-              <a href="#" class="nav-link text-dark">
+          <ul className="navbar-nav ms-auto text-center">
+            <li className="nav-item px-2 py-2">
+              <a href="#" className="nav-link text-dark">
                 DASHBOARD
               </a>
             </li>
-            <li class="nav-item px-2 py-2">
-              <a href="#contact" class="nav-link text-dark">
+            <li className="nav-item px-2 py-2">
+              <a href="#contact" className="nav-link text-dark">
                 DONATION
               </a>
             </li>
-            <li class="nav-btns px-3 py-2">
-              <a href="login.html" class="btn btn-dark text-warning px-4">
+            <li className="nav-btns px-3 py-2">
+              <a href="login.html" className="btn btn-dark text-warning px-4">
                 LOGOUT
               </a>
             </li>

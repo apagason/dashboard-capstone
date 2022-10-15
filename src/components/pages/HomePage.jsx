@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
       <NavbarHome />
       <Hero />
-      <Profile />
+      {/* <Profile /> */}
       <Activities />
     </>
   );

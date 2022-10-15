@@ -9,9 +9,11 @@
     --pink: #e5345b;
     --primary: #0d6efd;
     --warning: #ffc107;
+    --thm-black: #2c2734;
 }
 body {
     font-family: var(--sm-font);
+    box-sizing: border-box;
 }
 
 .btn:hover {
@@ -30,3 +32,4 @@ body {
     width: 90px;
     margin-top: 0;
 }
+
