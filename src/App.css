@@ -102,10 +102,35 @@
   border-radius: 14%;
 }
 
-/* .card-body{
-  background: #ffffff;
-  border: 1px solid #eae5e3;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  padding: 31px 40px 40px; */
+.text-h:hover {
+  color: #FF6D28 !important;
+  transition: all 0.4s ease;
+  
+}
+
+/* Discover */
+
+.discover {
+  margin-top: 50px;
+}
+
+.seperator-two{
+  background-color: #ffc107;
+  width: 3px;
+  height: 300px;
+  margin:auto;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.dis-box{
+
+  height: 500px;
+  width: 750px;
+  background-color: #FFD24C;
+}
+
+.icon {
+  padding-left: 14%;
+}
   

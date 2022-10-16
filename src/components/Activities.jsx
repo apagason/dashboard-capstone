@@ -2,48 +2,13 @@ import React from "react";
 import { Card, Button, Container } from "react-bootstrap";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { Map } from "@mui/icons-material";
 
 export default function Activities() {
   return (
     <div className="activities bg-act vh-100 volunteer-act position-relative d-block event">
       <Container className="d-flex justify-content-center">
         <div className="row mt-5 gx-5 d-flex justify-content-center">
-          <div className="col-md-6 col-lg-4 my-3">
-            <Card style={{ width: "25rem" }} className="p-0">
-              <div className="overflow-hidden">
-                <Card.Img
-                  className="card-img"
-                  variant="top"
-                  src="images/program-4.png"
-                />
-              </div>
-              <div className="card-date position-absolute d-flex align-items-center justify-content-center mt-3">
-                <p className="text-center pt-2 fw-bold">
-                  {" "}
-                  24
-                  <br />
-                  Oct
-                </p>
-              </div>
-              <Card.Body>
-                <Card.Title>
-                  <h3>HELP</h3>
-                </Card.Title>
-                <Card.Text className="row">
-                  <div className="py-2">
-                    <AccessTimeIcon color="warning" />
-                    <span> 08:00am</span>
-                  </div>
-                  <div>
-                    <LocationOnIcon color="warning" />
-                    <span>Angeles City, Pampanga</span>
-                  </div>
-                </Card.Text>
-                <Button variant="warning">JOIN</Button>
-              </Card.Body>
-            </Card>
-          </div>
+          {/* 1 */}
 
           <div className="col-md-6 col-lg-4 my-3">
             <Card style={{ width: "25rem" }} className="p-0">
@@ -64,7 +29,7 @@ export default function Activities() {
               </div>
               <Card.Body>
                 <Card.Title>
-                  <h3>HELP</h3>
+                  <h3 className="text-h">Feeding and Teaching Program</h3>
                 </Card.Title>
                 <Card.Text className="row">
                   <div className="py-2">
@@ -80,6 +45,8 @@ export default function Activities() {
               </Card.Body>
             </Card>
           </div>
+
+          {/* 2 */}
 
           <div className="col-md-6 col-lg-4 my-3">
             <Card style={{ width: "25rem" }} className="p-0">
@@ -100,7 +67,44 @@ export default function Activities() {
               </div>
               <Card.Body>
                 <Card.Title>
-                  <h3>HELP</h3>
+                  <h3>Linis Eskwela Program</h3>
+                </Card.Title>
+                <Card.Text className="row py-3">
+                  <div className="py-2">
+                    <AccessTimeIcon color="warning" />
+                    <span> 08:00am</span>
+                  </div>
+                  <div>
+                    <LocationOnIcon color="warning" />
+                    <span>Angeles City, Pampanga</span>
+                  </div>
+                </Card.Text>
+                <Button variant="warning">JOIN</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
+          {/* 3 */}
+          <div className="col-md-6 col-lg-4 my-3">
+            <Card style={{ width: "25rem" }} className="p-0">
+              <div className="overflow-hidden">
+                <Card.Img
+                  className="card-img"
+                  variant="top"
+                  src="images/program-4.png"
+                />
+              </div>
+              <div className="card-date position-absolute d-flex align-items-center justify-content-center mt-3">
+                <p className="text-center pt-2 fw-bold">
+                  {" "}
+                  24
+                  <br />
+                  Oct
+                </p>
+              </div>
+              <Card.Body>
+                <Card.Title>
+                  <h3>Save the Earth Tree Planting</h3>
                 </Card.Title>
                 <Card.Text className="row">
                   <div className="py-2">

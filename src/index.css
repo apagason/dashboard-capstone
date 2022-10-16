@@ -17,9 +17,9 @@ body {
 }
 
 .btn:hover {
-    background-color: whitesmoke;
+    background-color: #FF6D28;
     color: black;
-    border: whitesmoke;
+    border: #FF6D28;
 
 }
 .btn {
