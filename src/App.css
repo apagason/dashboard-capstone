@@ -53,10 +53,10 @@
 }
 
 
-.activities{
+/* .activities{
   background: url(../public/images/lower_bg.png) top/cover;
 
-}
+} */
 
 .actfont{
   margin-top: 90px;
@@ -125,8 +125,8 @@
 
 .dis-box{
 
-  height: 500px;
-  width: 750px;
+  height: 400px;
+  width: 600px;
   background-color: #FFD24C;
 }
 

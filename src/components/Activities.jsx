@@ -11,8 +11,8 @@ export default function Activities() {
           <div className="row mt-5 gx-5 d-flex justify-content-center">
             {/* 1 */}
 
-            <div className="col-md-6 col-lg-4 my-3">
-              <Card style={{ width: "25rem" }} className="p-0">
+            <div className="col-md-6 col-lg-4 my-3 h-100">
+              <Card style={{ width: "25rem" }} className=" p-0">
                 <div className="overflow-hidden">
                   <Card.Img
                     className="card-img"
@@ -49,13 +49,13 @@ export default function Activities() {
 
             {/* 2 */}
 
-            <div className="col-md-6 col-lg-4 my-3">
+            <div className="col-md-6 col-lg-4 my-3 h-100">
               <Card style={{ width: "25rem" }} className="p-0">
                 <div className="overflow-hidden">
                   <Card.Img
                     className="card-img"
                     variant="top"
-                    src="images/program-4.png"
+                    src="images/program-3.png"
                   />
                 </div>
                 <div className="card-date position-absolute d-flex align-items-center justify-content-center mt-3">
@@ -86,13 +86,13 @@ export default function Activities() {
             </div>
 
             {/* 3 */}
-            <div className="col-md-6 col-lg-4 my-3">
+            <div className="col-md-6 col-lg-4 my-3 h-100">
               <Card style={{ width: "25rem" }} className="p-0">
                 <div className="overflow-hidden">
                   <Card.Img
-                    className="card-img"
+                    className="card-img "
                     variant="top"
-                    src="images/program-4.png"
+                    src="images/program-2.png"
                   />
                 </div>
                 <div className="card-date position-absolute d-flex align-items-center justify-content-center mt-3">
